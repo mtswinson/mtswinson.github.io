@@ -1,0 +1,215 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(../bg.png);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+	margin-right: 25px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid #fff;
+	transition: 0.6s ease;
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+.logo img{
+	float: left;
+	width: 150px;
+	height: auto;
+}
+.main{
+	max-width: 1800px;
+	margin: auto;
+}
+
+.title{
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.title h1{
+	color: #fff;
+	font-size: 50px;
+}
+.i_text{
+	position: absolute;
+	top:75%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.i_text h1{
+	color: #fff;
+	font-size: 15px;
+}
+
+.group1:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.group1 { display: block; }
+
+.a_text {
+	font-family: Century Gothic;
+	font-size: 10px;
+	color: #fff;
+	width: 75%; 
+	float: left; 
+	padding-bottom: 100px;
+	padding-top: 175px
+}
+
+.button{
+	position: absolute;
+	top:62%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.btn{
+	border: 1px solid #fff;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.6s ease;
+}
+
+.btn:hover{
+	background-color: #fff;
+	color: #000;
+}
+.a_title {
+	position: absolute;
+	top:10%;
+	left: 10%;
+	transform: translate(-10%,-10%);
+}
+.a_title h1{
+	color: #fff;
+	font-size: 45px;
+}
+
+.p_title {
+	position: absolute;
+	top:10%;
+	left: 10%;
+	transform: translate(-10%,-10%);
+}
+.p_title h1{
+	color: #fff;
+	font-size: 45px;
+}
+
+
+
+.group:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.group { display: inline-block; }
+
+.three-columns .col {
+	font-family: Century Gothic;
+	font-size: 20px;
+	color: #fff;
+	width: 16%; 
+	float: left; 
+	padding: 8%;
+}
+
+.p_button{
+	position: absolute;
+	top:80%;
+	left: 59%;
+	transform: translate(-80%,-59%);
+	display: block;
+	
+}
+.p_btn{
+	border: 1px solid #fff;
+        
+	color: #fff;
+	text-decoration: none;
+	transition: 0.6s ease;
+}
+
+
+.p_btn:hover{
+	background-color: #fff;
+	color: #000;
+}
+.c_title {
+	position: absolute;
+	top:10%;
+	left: 10%;
+	transform: translate(-10%,-10%);
+}
+.c_title h1{
+	color: #fff;
+	font-size: 45px;
+}
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.form {
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 500px;
+	height: auto;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+
+}
